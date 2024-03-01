@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    border: 0;
+}
+
+body{
+    background:#070F2B;
+    color: #ffffff; /*cor da fonte letra*/
+}
+
+div{
+    background: #535C91;
+    margin: 20px;
+    padding: 20px;
+    border: solid 3px #ffffff;
+    border-radius: 5px; /*borda*/
+}
+
+.caixa-menor{
+    background: #1B1A55;
+    width: 40%;
+}
+
+.conteiner{
+    width: 1120px;
+    min-height: 400px;
+    padding: 0;
+    overflow: auto;
+    margin: 20px auto;
+}
+
+.esconder{
+    display: none;
+}
+
+.bloco{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+.b1{
+    background: #DCF2F1;
+    float: left;
+    width: 50%;
+}
+
+.b2{
+    background: #7FC7D9;
+    float: left;
+    width: 50%;
+}
+
+.b3{
+    background: #365486;
+    float: left;
+}
+
+.b4{
+    background: #0F1035;
+    float: left;
+}
