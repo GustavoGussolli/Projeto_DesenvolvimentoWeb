@@ -19,11 +19,13 @@ h1 strong {
 
 header ul il a {
     color: white;
-    text-decoration: dashed;
+    text-decoration: none;
+    margin-right: 15px;
 }
 
 header ul {
     list-style: none;
+    padding-left: 0;
 
 }
 
@@ -35,11 +37,36 @@ header,
 main,
 footer {
 
-    border: dotted yellow;
-    margin: 0 100px 0 100px;
-
+    width: 1120px;
+    margin: 0 auto; /*centralizar na página*/
+    /*border: dotted yellow;*/
 }
 
 footer {
     background: #00e5fc;
+}
+
+/*estilazação do layout*/
+
+section{
+    box-sizing: border-box;
+    float: left;
+}
+
+.secao-conteudo{
+    width: 80%;
+}
+
+.secao-imagem{
+    width: 20px;
+}
+
+header{
+    background: pink;
+    padding: 12px 0 12px;
+}
+
+footer{
+    float: left;
+    height: 50px;
 }
